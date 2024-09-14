@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class DesafioFila {
+public class QueueChallenge {
     public static void main(String[] args) {
         // Criação da fila de clientes usando LinkedList
         Queue<String> filaClientes = new LinkedList<>();
@@ -15,8 +15,7 @@ public class DesafioFila {
             System.out.println("\nSistema de Atendimento ao Cliente");
             System.out.println("1. Adicionar Cliente na Fila");
             System.out.println("2. Atender Cliente");
-            System.out.println("3. Remover Cliente da Fila");
-            System.out.println("4. Exibir Fila de Clientes");
+            System.out.println("3. Exibir Fila de Clientes");
             System.out.println("0. Sair");
             System.out.print("Escolha uma opção: ");
             opcao = scanner.nextInt();

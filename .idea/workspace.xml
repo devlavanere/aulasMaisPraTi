@@ -1,18 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee3eafc9-215f-4f66-8123-fcc467fba02d" name="Changes" comment="" />
+    <list default="true" id="ee3eafc9-215f-4f66-8123-fcc467fba02d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/resource/img/imagem-java.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson7_java_ed/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson7_java_ed/queue/exercicio_06/BankServiceQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson7_java_ed/queue/exercicio_07/PrintJobManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson7_java_ed/queue/exercicio_08/ProcessManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aulas/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aulas/Array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aulas/ContaBancaria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aulas/ContaBancaria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aulas/Geometria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aulas/Geometria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lists/CustomList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lists/CustomList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lists/CustomListMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lists/CustomListMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lists/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lists/SinglyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lists/SinglyLinkedListMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lists/SinglyLinkedListMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/queue/QueueChallenge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/queue/QueueChallenge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/queue/QueueExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/queue/QueueExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/queue/SimpleQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/queue/SimpleQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/DataHora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/DataHora.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/Utilitarios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/Utilitarios.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;devlavanere&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/devlavanere/aulasMaisPraTi.git&quot;,
+    &quot;accountId&quot;: &quot;a8b28297-d2f9-4ce3-9f6e-312ce541130f&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2li2E1AuRDjMI37hc3fRJFgxztp" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -21,14 +63,41 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.BankServiceQueue.executor": "Run",
+    "Application.BrowserHistoryMain.executor": "Run",
+    "Application.CardGameMain.executor": "Run",
+    "Application.CustomListMain.executor": "Run",
+    "Application.DataHora.executor": "Run",
+    "Application.DesafioFila.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.PrintJobManager.executor": "Run",
+    "Application.ProcessManager.executor": "Run",
+    "Application.QueueChallenge.executor": "Run",
+    "Application.QueueExample.executor": "Run",
+    "Application.TaskManagerApp.executor": "Run",
+    "Application.TestListt.executor": "Run",
+    "Application.TextEditorMain.executor": "Run",
+    "Application.UndoSystemMain.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/michel/java/aulasMaisPraTi/resource/img",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "/home/michel/java/aulasMaisPraTi/src/Main.java",
+    "settings.editor.selected.configurable": "editor.preferences.completion",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resource/img" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -45,16 +114,33 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1725648463731</updated>
-      <workItem from="1725648464846" duration="3000" />
+      <workItem from="1725648464846" duration="9278000" />
+      <workItem from="1725702123282" duration="14609000" />
+      <workItem from="1726232672183" duration="12940000" />
+      <workItem from="1726343948693" duration="9934000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>11</line>
+          <line>19</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
