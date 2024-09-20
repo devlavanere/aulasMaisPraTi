@@ -1,0 +1,14 @@
+package lesson8_java_oo.polimorfismo.PolimorfismoInterface;
+
+// Implementando a interface na classe Bicicleta
+class Bicicleta implements IMeioTransporte {
+    @Override
+    public void acelerar() {
+        System.out.println("A bicicleta está acelerando.");
+    }
+
+    @Override
+    public void frear() {
+        System.out.println("A bicicleta está freando.");
+    }
+}
