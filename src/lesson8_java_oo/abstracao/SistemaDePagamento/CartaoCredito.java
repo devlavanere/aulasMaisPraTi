@@ -17,14 +17,23 @@ public class CartaoCredito extends FormaPagamento {
     @Override
     public void processarPagamento(double valor) {
         if(validarPagamento()) {
-            System.out.println("Pagamento de R$ " + valor + "processado com sucesso via Cartão de Crédito. ");
+            System.out.println("Pagamento de R$"+ valor + " processado com sucesso via Cartão de Crédito. ");
         } else {
-            throw new IllegalArgumentException("Falha ao processar pagamento via Cartão de Cartão.");
+            throw new IllegalArgumentException("Falha ao processar pagamento via Cartão de Credito.");
         }
     }
 
     @Override
     public boolean validarPagamento() {
-        return numeroCartao.length() == 16 && !nomeTitular.isEmpty() && cvv.length() == 3;
+        if (numeroCartao.length() != 16) {
+            throw new IllegalArgumentException("Número do cartão de crédito inválido.");
+        }
+        if (nomeTitular.isEmpty()) {
+            throw new IllegalArgumentException("Nome do titular do cartão não pode estar vazio.");
+        }
+        if (cvv.length() != 3) {
+            throw new IllegalArgumentException("CVV do cartão inválido.");
+        }
+        return true;
     }
 }

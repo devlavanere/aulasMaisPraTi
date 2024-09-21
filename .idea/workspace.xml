@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee3eafc9-215f-4f66-8123-fcc467fba02d" name="Changes" comment="Finalizando Polimorfismo e iniciando Abstraçao." />
+    <list default="true" id="ee3eafc9-215f-4f66-8123-fcc467fba02d" name="Changes" comment="Finalizando Polimorfismo e iniciando Abstraçao.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson8_java_oo/abstracao/SistemaDePagamento/Boleto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson8_java_oo/abstracao/SistemaDePagamento/Boleto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson8_java_oo/abstracao/SistemaDePagamento/CartaoCredito.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson8_java_oo/abstracao/SistemaDePagamento/CartaoCredito.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson8_java_oo/abstracao/SistemaDePagamento/Pix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson8_java_oo/abstracao/SistemaDePagamento/Pix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson8_java_oo/abstracao/SistemaDePagamento/SitemaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson8_java_oo/abstracao/SistemaDePagamento/SitemaMain.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,12 +33,12 @@
     &quot;assignee&quot;: &quot;devlavanere&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/devlavanere/aulasMaisPraTi.git&quot;,
-    &quot;accountId&quot;: &quot;895c3b46-5e8a-42c2-823d-5da6f9668ea8&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/devlavanere/aulasMaisPraTi.git",
+    "accountId": "a8b28297-d2f9-4ce3-9f6e-312ce541130f"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -59,6 +65,7 @@
     "Application.ProdutoMain.executor": "Run",
     "Application.QueueChallenge.executor": "Run",
     "Application.QueueExample.executor": "Run",
+    "Application.SitemaMain.executor": "Run",
     "Application.TaskManagerApp.executor": "Run",
     "Application.TestListt.executor": "Run",
     "Application.TextEditorMain.executor": "Run",
@@ -84,7 +91,7 @@
       <recent name="$PROJECT_DIR$/resource/img" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AnimalMain">
+  <component name="RunManager" selected="Application.SitemaMain">
     <configuration name="AnimalMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lesson8_java_oo.polimorfismo.ClassesAbstratas.AnimalMain" />
       <module name="aulasMaisPraTi" />
@@ -124,12 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Produto2Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson8_java_oo.encapsulamento.ClasseValidacao.Produto2Main" />
+    <configuration name="SitemaMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson8_java_oo.abstracao.SistemaDePagamento.SitemaMain" />
       <module name="aulasMaisPraTi" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson8_java_oo.encapsulamento.ClasseValidacao.*" />
+          <option name="PATTERN" value="lesson8_java_oo.abstracao.SistemaDePagamento.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,19 +159,19 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SitemaMain" />
         <item itemvalue="Application.AnimalMain" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.lesson8_java_oo.heranca.SobrescritaDeMetodos.FuncionarioMain" />
         <item itemvalue="Application.FuncionarioMain" />
-        <item itemvalue="Application.Produto2Main" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18968.26" />
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18968.26" />
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.22855.74" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.22855.74" />
       </set>
     </attachedChunks>
   </component>
@@ -184,6 +191,7 @@
       <workItem from="1726697140492" duration="4984000" />
       <workItem from="1726746149277" duration="10811000" />
       <workItem from="1726811420219" duration="4950000" />
+      <workItem from="1726917997471" duration="2157000" />
     </task>
     <task id="LOCAL-00001" summary="Finalizando atividade 7.">
       <option name="closed" value="true" />
@@ -225,7 +233,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726877413675</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Finalizando Polimorfismo e iniciando Abstraçao.">
+      <option name="closed" value="true" />
+      <created>1726877487291</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1726877487291</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
