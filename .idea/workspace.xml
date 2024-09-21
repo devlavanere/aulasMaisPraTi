@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee3eafc9-215f-4f66-8123-fcc467fba02d" name="Changes" comment="Finalizando Classe com Validação.">
-      <change afterPath="$PROJECT_DIR$/src/lesson8_java_oo/abstracao/SistemaDePagamento/Boleto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson8_java_oo/abstracao/SistemaDePagamento/CartaoCredito.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson8_java_oo/abstracao/SistemaDePagamento/FormaPagamento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson8_java_oo/abstracao/SistemaDePagamento/Pix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson8_java_oo/abstracao/SistemaDePagamento/SitemaMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson8_java_oo/polimorfismo/ClassesAbstratas/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson8_java_oo/polimorfismo/ClassesAbstratas/AnimalMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson8_java_oo/polimorfismo/ClassesAbstratas/Cachorro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson8_java_oo/polimorfismo/ClassesAbstratas/Gato.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson8_java_oo/polimorfismo/ClassesAbstratas/Vaca.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ee3eafc9-215f-4f66-8123-fcc467fba02d" name="Changes" comment="Finalizando Polimorfismo e iniciando Abstraçao." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -229,7 +217,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726815329643</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Finalizando Polimorfismo e iniciando Abstraçao.">
+      <option name="closed" value="true" />
+      <created>1726877413675</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1726877413675</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,7 +246,8 @@
     <MESSAGE value="Finalizando atividade 7." />
     <MESSAGE value="Começando Lesson8 e finalizando ClasseSimples." />
     <MESSAGE value="Finalizando Classe com Validação." />
-    <option name="LAST_COMMIT_MESSAGE" value="Finalizando Classe com Validação." />
+    <MESSAGE value="Finalizando Polimorfismo e iniciando Abstraçao." />
+    <option name="LAST_COMMIT_MESSAGE" value="Finalizando Polimorfismo e iniciando Abstraçao." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
