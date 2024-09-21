@@ -8,16 +8,16 @@ public class Pix extends FormaPagamento{
     }
 
     @Override
-    public void processarPagamento(double valor) {
+    public void processarPagamento(double valor) throws Exception{
         if(validarPagamento()) {
             System.out.println("Pagamento de R$"+ valor + " realizado via Pix com sucesso.");
         } else {
-            throw new IllegalArgumentException("Falha ao processar pagamento via Pix.");
+            throw new Exception("Erro ao processar pagamento via Pix.");
         }
     }
 
     @Override
-    public boolean validarPagamento() {
+    public boolean validarPagamento() throws IllegalArgumentException{
         if (chavePix.length() < 11 || chavePix.length() > 32) {
             throw new IllegalArgumentException("Chave Pix inválida.");
         }

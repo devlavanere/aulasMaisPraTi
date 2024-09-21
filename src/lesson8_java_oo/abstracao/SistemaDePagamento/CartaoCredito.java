@@ -15,16 +15,16 @@ public class CartaoCredito extends FormaPagamento {
     }
 
     @Override
-    public void processarPagamento(double valor) {
+    public void processarPagamento(double valor) throws Exception {
         if(validarPagamento()) {
             System.out.println("Pagamento de R$"+ valor + " processado com sucesso via Cartão de Crédito. ");
         } else {
-            throw new IllegalArgumentException("Falha ao processar pagamento via Cartão de Credito.");
+            throw new Exception("Falha ao processar pagamento via Cartão de Credito.");
         }
     }
 
     @Override
-    public boolean validarPagamento() {
+    public boolean validarPagamento() throws IllegalArgumentException {
         if (numeroCartao.length() != 16) {
             throw new IllegalArgumentException("Número do cartão de crédito inválido.");
         }

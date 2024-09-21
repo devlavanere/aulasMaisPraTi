@@ -8,17 +8,17 @@ public class Boleto extends FormaPagamento {
     }
 
     @Override
-    public void processarPagamento(double valor) {
+    public void processarPagamento(double valor) throws Exception{
         if(validarPagamento()) {
             System.out.println("Boleto de R$"+ valor + " gerado com sucesso.");
         } else {
-            throw new IllegalArgumentException("Falha ao gerar boleto.");
+            throw new Exception("Erro ao gerar boleto.");
         }
     }
 
     @Override
-    public boolean validarPagamento() {
-        if (codigoBarras.length() != 47) {
+    public boolean validarPagamento() throws IllegalArgumentException{
+        if (codigoBarras.length() != 10) {
             throw new IllegalArgumentException("Código de barras inválido.");
         }
         return true;
