@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee3eafc9-215f-4f66-8123-fcc467fba02d" name="Changes" comment="Finalizando Classe com Validação.">
-      <change afterPath="$PROJECT_DIR$/src/lesson8_java_oo/abstracao/SistemaGestaoFuncionario/Desenvolvedor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson8_java_oo/abstracao/SistemaGestaoFuncionario/Estagiario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson8_java_oo/abstracao/SistemaGestaoFuncionario/Funcionario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson8_java_oo/abstracao/SistemaGestaoFuncionario/FuncionarioMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson8_java_oo/abstracao/SistemaGestaoFuncionario/Gerente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson8_java_oo/abstracao/SistemaGestaoFuncionario/GestaoFuncionarios.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_20_09_2024_18_08__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_20_09_2024_18_08__Changes_.xml" afterDir="false" />
+    <list default="true" id="ee3eafc9-215f-4f66-8123-fcc467fba02d" name="Changes" comment="Finalizando Abstração SistemaGestaoFuncionario.">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -91,6 +85,9 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/resource/img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\dev\projetos\aulasMaisPraTi\resource\img" />
     </key>
   </component>
   <component name="RunManager" selected="Application.lesson8_java_oo.abstracao.SistemaGestaoFuncionario.FuncionarioMain">
@@ -226,7 +223,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726815329643</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Finalizando Abstração SistemaGestaoFuncionario.">
+      <option name="closed" value="true" />
+      <created>1727153739111</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1727153739111</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,7 +252,8 @@
     <MESSAGE value="Finalizando atividade 7." />
     <MESSAGE value="Começando Lesson8 e finalizando ClasseSimples." />
     <MESSAGE value="Finalizando Classe com Validação." />
-    <option name="LAST_COMMIT_MESSAGE" value="Finalizando Classe com Validação." />
+    <MESSAGE value="Finalizando Abstração SistemaGestaoFuncionario." />
+    <option name="LAST_COMMIT_MESSAGE" value="Finalizando Abstração SistemaGestaoFuncionario." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
