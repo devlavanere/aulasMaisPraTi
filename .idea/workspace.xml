@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee3eafc9-215f-4f66-8123-fcc467fba02d" name="Changes" comment="Finalizando Abstração SistemaGestaoFuncionario.">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="ee3eafc9-215f-4f66-8123-fcc467fba02d" name="Changes" comment="Readme principal.">
+      <change afterPath="$PROJECT_DIR$/src/lesson8_java_oo/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -231,7 +231,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727153739111</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Readme principal.">
+      <option name="closed" value="true" />
+      <created>1727155369074</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1727155369074</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,7 +261,8 @@
     <MESSAGE value="Começando Lesson8 e finalizando ClasseSimples." />
     <MESSAGE value="Finalizando Classe com Validação." />
     <MESSAGE value="Finalizando Abstração SistemaGestaoFuncionario." />
-    <option name="LAST_COMMIT_MESSAGE" value="Finalizando Abstração SistemaGestaoFuncionario." />
+    <MESSAGE value="Readme principal." />
+    <option name="LAST_COMMIT_MESSAGE" value="Readme principal." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
