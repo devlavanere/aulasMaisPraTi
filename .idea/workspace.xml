@@ -4,13 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee3eafc9-215f-4f66-8123-fcc467fba02d" name="Changes" comment="Finalizando SistemaDePagamento no Package Abstraçao.">
+    <list default="true" id="ee3eafc9-215f-4f66-8123-fcc467fba02d" name="Changes" comment="Finalizando Classe com Validação.">
+      <change afterPath="$PROJECT_DIR$/src/lesson8_java_oo/abstracao/SistemaGestaoFuncionario/Desenvolvedor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson8_java_oo/abstracao/SistemaGestaoFuncionario/Estagiario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson8_java_oo/abstracao/SistemaGestaoFuncionario/Funcionario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson8_java_oo/abstracao/SistemaGestaoFuncionario/FuncionarioMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson8_java_oo/abstracao/SistemaGestaoFuncionario/Gerente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson8_java_oo/abstracao/SistemaGestaoFuncionario/GestaoFuncionarios.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_20_09_2024_18_08__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_20_09_2024_18_08__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson8_java_oo/abstracao/SistemaDePagamento/Boleto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson8_java_oo/abstracao/SistemaDePagamento/Boleto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson8_java_oo/abstracao/SistemaDePagamento/CartaoCredito.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson8_java_oo/abstracao/SistemaDePagamento/CartaoCredito.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson8_java_oo/abstracao/SistemaDePagamento/FormaPagamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson8_java_oo/abstracao/SistemaDePagamento/FormaPagamento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson8_java_oo/abstracao/SistemaDePagamento/Pix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson8_java_oo/abstracao/SistemaDePagamento/Pix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson8_java_oo/abstracao/SistemaDePagamento/SitemaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson8_java_oo/abstracao/SistemaDePagamento/SitemaMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,12 +36,12 @@
     &quot;assignee&quot;: &quot;devlavanere&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/devlavanere/aulasMaisPraTi.git",
-    "accountId": "a8b28297-d2f9-4ce3-9f6e-312ce541130f"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/devlavanere/aulasMaisPraTi.git&quot;,
+    &quot;accountId&quot;: &quot;895c3b46-5e8a-42c2-823d-5da6f9668ea8&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -51,7 +53,6 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.AnimalMain.executor": "Run",
     "Application.BankServiceQueue.executor": "Run",
     "Application.BrowserHistoryMain.executor": "Run",
     "Application.CardGameMain.executor": "Run",
@@ -66,11 +67,11 @@
     "Application.ProdutoMain.executor": "Run",
     "Application.QueueChallenge.executor": "Run",
     "Application.QueueExample.executor": "Run",
-    "Application.SitemaMain.executor": "Run",
     "Application.TaskManagerApp.executor": "Run",
     "Application.TestListt.executor": "Run",
     "Application.TextEditorMain.executor": "Run",
     "Application.UndoSystemMain.executor": "Run",
+    "Application.lesson8_java_oo.abstracao.SistemaGestaoFuncionario.FuncionarioMain.executor": "Run",
     "Application.lesson8_java_oo.heranca.SobrescritaDeMetodos.FuncionarioMain.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -92,20 +93,7 @@
       <recent name="$PROJECT_DIR$/resource/img" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SitemaMain">
-    <configuration name="AnimalMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson8_java_oo.polimorfismo.ClassesAbstratas.AnimalMain" />
-      <module name="aulasMaisPraTi" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson8_java_oo.polimorfismo.ClassesAbstratas.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.lesson8_java_oo.abstracao.SistemaGestaoFuncionario.FuncionarioMain">
     <configuration name="FuncionarioMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lesson8_java_oo.heranca.HierarquiaDeClasses.FuncionarioMain" />
       <module name="aulasMaisPraTi" />
@@ -132,12 +120,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SitemaMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson8_java_oo.abstracao.SistemaDePagamento.SitemaMain" />
+    <configuration name="Produto2Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson8_java_oo.encapsulamento.ClasseValidacao.Produto2Main" />
       <module name="aulasMaisPraTi" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson8_java_oo.abstracao.SistemaDePagamento.*" />
+          <option name="PATTERN" value="lesson8_java_oo.encapsulamento.ClasseValidacao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lesson8_java_oo.abstracao.SistemaGestaoFuncionario.FuncionarioMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson8_java_oo.abstracao.SistemaGestaoFuncionario.FuncionarioMain" />
+      <module name="aulasMaisPraTi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson8_java_oo.abstracao.SistemaGestaoFuncionario.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,19 +161,19 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SitemaMain" />
-        <item itemvalue="Application.AnimalMain" />
+        <item itemvalue="Application.lesson8_java_oo.abstracao.SistemaGestaoFuncionario.FuncionarioMain" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.lesson8_java_oo.heranca.SobrescritaDeMetodos.FuncionarioMain" />
         <item itemvalue="Application.FuncionarioMain" />
+        <item itemvalue="Application.Produto2Main" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.22855.74" />
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.22855.74" />
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18968.26" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18968.26" />
       </set>
     </attachedChunks>
   </component>
@@ -192,7 +193,6 @@
       <workItem from="1726697140492" duration="4984000" />
       <workItem from="1726746149277" duration="10811000" />
       <workItem from="1726811420219" duration="4950000" />
-      <workItem from="1726917997471" duration="6804000" />
     </task>
     <task id="LOCAL-00001" summary="Finalizando atividade 7.">
       <option name="closed" value="true" />
@@ -226,31 +226,7 @@
       <option name="project" value="LOCAL" />
       <updated>1726815329643</updated>
     </task>
-    <task id="LOCAL-00005" summary="Finalizando Polimorfismo e iniciando Abstraçao.">
-      <option name="closed" value="true" />
-      <created>1726877413675</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1726877413675</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Finalizando Polimorfismo e iniciando Abstraçao.">
-      <option name="closed" value="true" />
-      <created>1726877487291</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1726877487291</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Finalizando SistemaDePagamento no Package Abstraçao.">
-      <option name="closed" value="true" />
-      <created>1726920556931</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1726920556931</updated>
-    </task>
-    <option name="localTasksCounter" value="8" />
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,9 +247,7 @@
     <MESSAGE value="Finalizando atividade 7." />
     <MESSAGE value="Começando Lesson8 e finalizando ClasseSimples." />
     <MESSAGE value="Finalizando Classe com Validação." />
-    <MESSAGE value="Finalizando Polimorfismo e iniciando Abstraçao." />
-    <MESSAGE value="Finalizando SistemaDePagamento no Package Abstraçao." />
-    <option name="LAST_COMMIT_MESSAGE" value="Finalizando SistemaDePagamento no Package Abstraçao." />
+    <option name="LAST_COMMIT_MESSAGE" value="Finalizando Classe com Validação." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
